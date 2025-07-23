@@ -17,14 +17,7 @@ A conversational voice agent that guides users through the creation of a Daily P
 
 ## 🚀 Getting Started
 
-### 1. Clone the Repository
-
-```bash
-git clone https://github.com/your-org/voice-dpr-assistant.git
-cd voice-dpr-assistant
-```
-
-### 2. Install Python & AWS CLI
+### 1. Install Python & AWS CLI
 
 - [Python 3.12](https://www.python.org/downloads/release/python-3120/)
 - [AWS CLI v2](https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2.html)
@@ -37,7 +30,7 @@ aws configure
 
 ---
 
-### 3. Install Python Dependencies
+### 2. Install Python Dependencies
 
 Set up your virtual environment:
 
@@ -55,7 +48,7 @@ pip install pipecat-ai-small-webrtc-prebuilt fastapi uvicorn python-dotenv boto3
 
 ---
 
-### 4. Environment Configuration
+### 3. Environment Configuration
 
 Create a `.env` file in your project root:
 
@@ -67,7 +60,7 @@ AWS_REGION=us-east-1
 
 ---
 
-### 5. Run the Agent
+### 4. Run the Agent
 
 ```bash
 python run.py agent.py
