@@ -2,7 +2,7 @@
 
 A conversational voice agent that guides users through the creation of a Daily Progress Report (DPR) using real-time voice interaction. The assistant extracts and validates field inputs based on a knowledge base in AWS Bedrock and submits the final DPR as JSON to an AWS Lambda function for backend processing.
 
-Adding addtional Workshops for voice ai agents by aws : https://catalog.workshops.aws/voice-ai-agents/en-US/module1
+ Addtional Workshops for voice ai agents by aws : https://catalog.workshops.aws/voice-ai-agents/en-US/module1
 ---
 
 ## 📌 Features
